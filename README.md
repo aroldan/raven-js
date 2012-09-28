@@ -12,6 +12,8 @@ The stacktrace generation was inspired by the [javascript-stacktrace][4]
 project, and includes heavily modified portions of that project's code. The
 full and minified distribution files include [parseUri][5].
 
+This fork adds compatibility with Sencha Touch 2 and underscore.js so that jQuery/Zepto doesn't have to be added to a Sencha Touch project.
+
 [1]: http://getsentry.com/
 [4]: https://github.com/eriwen/javascript-stacktrace
 [5]: http://blog.stevenlevithan.com/archives/parseuri
@@ -20,7 +22,7 @@ full and minified distribution files include [parseUri][5].
 
 Download the latest version [here][5].
 
-Raven.js requires either [jQuery][6] (>1.5) or [Zepto.js][7] (>0.8).
+Raven.js requires either [jQuery][6] (>1.5) or [Zepto.js][7] (>0.8). This fork also supports [Sencha Touch 2][8] in conjunction with the [underscore.js][9] library.
 
 First include jQuery or Zepto in your document's head. Then include the
 minified distribution file from the 'dist' directory:
@@ -31,6 +33,8 @@ minified distribution file from the 'dist' directory:
 [5]: https://github.com/downloads/lincolnloop/raven-js/raven-js-0.6.tar.gz
 [6]: http://jquery.com/
 [7]: http://zeptojs.com/
+[8]: http://docs.sencha.com/touch/2-0/
+[9]: http://underscorejs.org/
 
 
 ## Configuration

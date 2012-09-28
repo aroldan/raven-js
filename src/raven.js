@@ -19,7 +19,7 @@
     Raven.VERSION = '@VERSION';
 
     // jQuery, Zepto, or Ender owns the `$` variable.
-    var $ = root.jQuery || root.Zepto || root.ender;
+    var $ = root.jQuery || root.Zepto || root.ender || root.senchaGlue;
 
     Raven.loaded = false;
     Raven.options = {
